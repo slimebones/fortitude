@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = ""
+authors = ["ryzhovalex <thed4rkof@gmail.com>"]
+packages = [
+    { include = "src" }
+]
+classifiers = [
+    "Private :: Do Not Upload"
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aioconsole = "^0.7.0"
+pykit = { path = "../pykit", develop = true }
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.15"
+coverage = "^6.5.0"
+pytest = "^7.2.0"
+pytest-asyncio = "^0.21.0"
+pytest-aiohttp = "^1.0.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
