@@ -2,9 +2,6 @@
 # **************
 _auto_*
 
-# hqf index.yml representation
-.index.yml
-
 # lock files
 .~lock*
 
