@@ -23,8 +23,6 @@ class App:
             "<green>{time:YYYY-MM-DD HH:mm:ss.SSS}</green> |" \
             " <level>{level: <8}</level> - <level>{message}</level>"
         _logger.add(sys.stdout, format=log_format)
-        log.debug("hello?")
-        exit(0)
 
         return self
 

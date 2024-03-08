@@ -14,6 +14,7 @@ classifiers = [
 python = "^3.11"
 aioconsole = "^0.7.0"
 pykit = { path = "../pykit", develop = true }
+pymongo = "^4.6.2"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.1.15"
